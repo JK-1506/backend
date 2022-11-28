@@ -11,6 +11,10 @@ const DEVICESchema = mongoose.Schema({
     },
     date: { type: Date, default: Date.now },
     active: { type: Boolean },
+<<<<<<< HEAD
+=======
+    warning: { type: Boolean },
+>>>>>>> 7ef4a5a54f3bf99b4793382b54883414515bbc87
     phone: {
         type: String,
         require: true
