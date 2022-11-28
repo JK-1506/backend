@@ -47,7 +47,6 @@ const sensorController = {
         }
     },
 
-<<<<<<< HEAD
     //Thong ke
     getTKByDate:async (req, res) => {
         try {
@@ -59,7 +58,5 @@ const sensorController = {
         }
     },
 
-=======
->>>>>>> 7ef4a5a54f3bf99b4793382b54883414515bbc87
 };
 module.exports = sensorController;
